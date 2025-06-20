@@ -1,0 +1,46 @@
+rb:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+ao:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+ag:
+  exchange: 'SHFE'
+  morning: False
+  night: True
+  stop:
+    - [2, 57]
+ur:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+jd:
+  exchange: 'DCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+ap:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+cj:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+
+

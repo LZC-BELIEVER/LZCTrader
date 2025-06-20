@@ -1,0 +1,12 @@
+CLASS: 'Example' # 必须和策略文件中的类名严格一致
+
+INTERVAL: '1min' #interval:策略（generate_signal函数）多久运行一次
+
+PARAMETERS: #策略中所需参数
+  ema_period: 10
+
+WATCHLIST: ['jd2508', 'rb2510', 'ag2508', 'ao2509'] # 交易品种
+
+
+
+
