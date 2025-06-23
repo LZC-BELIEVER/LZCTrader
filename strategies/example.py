@@ -44,6 +44,9 @@ class Example(Strategy):
         # cut_yesterday：取的数据中，当同时包含今日数据和昨日数据时，是否去掉昨日数据。True表示去掉；
         data = data[::-1]  # 取到的数据中，按时间由近到远排序。再此翻转为由远到近，便于某些策略处理
 
+        position_dict = self.broker.get_position(self.instrument)
+        print(f"{self.instrument} position", position_dict["long_tdPosition"], position_dict["long_ydPosition"], position_dict["short_tdPosition"], position_dict["short_ydPosition"]) # 仓位查询
+
         some_condition = True  # 由取到的data计算，得到某些condition，作为策略下单条件
 
         temp = self.broker.get_candles(self.instrument, granularity="1s", count=1)
