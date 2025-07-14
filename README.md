@@ -23,5 +23,6 @@
 4. 在run.py中，配置configue，set_preliminary_select以及set_strategy，配置方法见注释。接着，在day_and_night.py中run_strategy()函数中按照注释修改运行路径。 
 5. 运行day_and_night.py
 6. 支持的交易品种见LZCTrader/tools/instrument_map.yaml
+7. 当收到服务器端 message='ready' 信息时，表示系统已经开始正常运行。系统无额外运行界面，下单成功时，会显示单号。
 
 
