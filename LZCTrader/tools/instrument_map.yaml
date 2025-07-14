@@ -1,3 +1,94 @@
+cu:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+pb:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+al:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+zn:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+sn:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+ni:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+ss:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+ao:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [0, 57]
+fu:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+ru:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+br:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+bu:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+sp:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
 rb:
   exchange: 'SHFE'
   morning: True
@@ -5,21 +96,166 @@ rb:
   stop:
     - [14, 57]
     - [22, 57]
-ao:
+hc:
   exchange: 'SHFE'
   morning: True
   night: True
   stop:
     - [14, 57]
     - [22, 57]
-ag:
+au:
   exchange: 'SHFE'
-  morning: False
+  morning: True
   night: True
   stop:
-    - [2, 57]
-ur:
-  exchange: 'CZCE'
+    - [14, 57]
+    - [2, 27]
+ag:
+  exchange: 'SHFE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [2, 27]
+wr:
+  exchange: 'SHFE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+
+i:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+j:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+jm:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+a:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+b:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+p:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+y:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+c:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+cs:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+pp:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+v:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+eb:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+eg:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+pg:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+rr:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+l:
+  exchange: 'DCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+bb:
+  exchange: 'DCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+fb:
+  exchange: 'DCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+lg:
+  exchange: 'DCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+lh:
+  exchange: 'DCE'
   morning: True
   night: False
   stop:
@@ -30,13 +266,172 @@ jd:
   night: False
   stop:
     - [14, 57]
-ap:
+
+fg:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+sa:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+sh:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+px:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+pr:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+ma:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+sr:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+ta:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+rm:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+oi:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+cf:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+cy:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+pf:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+zc:
+  exchange: 'CZCE'
+  morning: True
+  night: True
+  stop:
+    - [14, 57]
+    - [22, 57]
+sm:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+sf:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+wh:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+jr:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+lr:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+pm:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+ri:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+rs:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+pk:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+ur:
   exchange: 'CZCE'
   morning: True
   night: False
   stop:
     - [14, 57]
 cj:
+  exchange: 'CZCE'
+  morning: True
+  night: False
+  stop:
+    - [14, 57]
+ap:
   exchange: 'CZCE'
   morning: True
   night: False
