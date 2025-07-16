@@ -299,20 +299,20 @@ class LZCTrader:
                 if not night:
                     continue
 
-            bot = LZCBot(
-                strategy=self.strategy_class(instrument=instrument,
-                                             exchange=exchange,
-                                             parameters=self.strategy_config['PARAMETERS'],
-                                             broker=self.broker)
-            )
-            bot.run_thread = threading.Thread(target=self.real_loop, args=(bot,))
-            bot.stop_flag = threading.Event()
-            bot.stop_thread = threading.Thread(target=self.start_market_status_timer, args=(stop, bot))
+        bot = LZCBot(
+            strategy=self.strategy_class(instrument=instrument,
+                                         exchange=exchange,
+                                         parameters=self.strategy_config['PARAMETERS'],
+                                         broker=self.broker)
+        )
+        bot.run_thread = threading.Thread(target=self.real_loop, args=(bot,))
+        bot.stop_flag = threading.Event()
+        bot.stop_thread = threading.Thread(target=self.start_market_status_timer, args=(stop, bot))
 
-            time.sleep(0.2)
-            bot.run_thread.start()
-            bot.stop_thread.start()
-            self.bot_list.append(bot)
+        time.sleep(0.2)
+        bot.run_thread.start()
+        bot.stop_thread.start()
+        self.bot_list.append(bot)
 
         # 首先收集所有需要等待的线程
         threads_to_wait = {bot.run_thread for bot in self.bot_list}
@@ -363,20 +363,20 @@ class LZCTrader:
             while True:
                 now = datetime.now()
                 weekday = now.weekday()  # 周一=0，周日=6
-
+    
                 if weekday < 5:  # 周一到周五
                     for target_hour, target_min in target_times:
                         target_time = now.replace(hour=target_hour, minute=target_min, second=0, microsecond=0)
-
+    
                         if target_time < now:
                             target_time += timedelta(days=1)
                         time_diff = (now - target_time).total_seconds()
-                        if abs(time_diff) < 60:
-                            try:
-                                #self.stop_flag.set()
-                                bot.stop_flag.set()
-                                print(f"[{now.strftime('%Y-%m-%d %H:%M:%S')}] Closing BOT")
-                                time.sleep(80)
+                        #if abs(time_diff) < 60:
+                try:
+                    #self.stop_flag.set()
+                    bot.stop_flag.set()
+                    print(f"[{now.strftime('%Y-%m-%d %H:%M:%S')}] Closing BOT")
+                    time.sleep(80)
                             except AttributeError:
                                 print("ERROR when closing market")
                 else:
