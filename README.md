@@ -3,7 +3,7 @@
 ## 简介
 - LZCTrader是面向广大量化策略研究人员所使用的直连交易客户端系统，系统可以实现获取期货行情数据并根据自定义策略实现自动化交易。
 - 系统参考[AutoTrader](https://github.com/kieran-mackle/AutoTrader)架构实现。现在只支持中国大陆期货市场多期货品种交易。
-- Author: LZC from XJTU
+- Author: LZC from XJTU Solo
 
 ## 文件结构
 - **API**:券商接口模块
